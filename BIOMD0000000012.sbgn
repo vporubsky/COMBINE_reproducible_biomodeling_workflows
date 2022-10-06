@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="process" orientation="horizontal" id="pnReaction1">
+            <bbox w="10.0" h="10.0" x="270.0" y="539.0"/>
+            <port id="pnReaction1.L" x="270.0" y="544.0"/>
+            <port id="pnReaction1.R" x="280.0" y="544.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction2">
+            <bbox w="10.0" h="10.0" x="567.0" y="298.0"/>
+            <port id="pnReaction2.L" x="567.0" y="303.0"/>
+            <port id="pnReaction2.R" x="577.0" y="303.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction3">
+            <bbox w="10.0" h="10.0" x="220.0" y="81.0"/>
+            <port id="pnReaction3.L" x="220.0" y="86.0"/>
+            <port id="pnReaction3.R" x="230.0" y="86.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction4">
+            <bbox w="10.0" h="10.0" x="356.0" y="501.0"/>
+            <port id="pnReaction4.L" x="356.0" y="506.0"/>
+            <port id="pnReaction4.R" x="366.0" y="506.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction5">
+            <bbox w="10.0" h="10.0" x="463.0" y="123.0"/>
+            <port id="pnReaction5.L" x="463.0" y="128.0"/>
+            <port id="pnReaction5.R" x="473.0" y="128.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction6">
+            <bbox w="10.0" h="10.0" x="205.0" y="136.0"/>
+            <port id="pnReaction6.L" x="205.0" y="141.0"/>
+            <port id="pnReaction6.R" x="215.0" y="141.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction7">
+            <bbox w="10.0" h="10.0" x="451.0" y="531.0"/>
+            <port id="pnReaction7.L" x="451.0" y="536.0"/>
+            <port id="pnReaction7.R" x="461.0" y="536.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction8">
+            <bbox w="10.0" h="10.0" x="425.0" y="80.0"/>
+            <port id="pnReaction8.L" x="425.0" y="85.0"/>
+            <port id="pnReaction8.R" x="435.0" y="85.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction9">
+            <bbox w="10.0" h="10.0" x="94.0" y="338.0"/>
+            <port id="pnReaction9.L" x="94.0" y="343.0"/>
+            <port id="pnReaction9.R" x="104.0" y="343.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction10">
+            <bbox w="10.0" h="10.0" x="228.0" y="488.0"/>
+            <port id="pnReaction10.L" x="228.0" y="493.0"/>
+            <port id="pnReaction10.R" x="238.0" y="493.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction11">
+            <bbox w="10.0" h="10.0" x="457.0" y="471.0"/>
+            <port id="pnReaction11.L" x="457.0" y="476.0"/>
+            <port id="pnReaction11.R" x="467.0" y="476.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pnReaction12">
+            <bbox w="10.0" h="10.0" x="331.0" y="101.0"/>
+            <port id="pnReaction12.L" x="331.0" y="106.0"/>
+            <port id="pnReaction12.R" x="341.0" y="106.0"/>
+        </glyph>
+        <glyph class="compartment" id="ca0">
+            <label text="cell">
+                <bbox w="32.0" h="12.0" x="317.5" y="433.5"/>
+            </label>
+            <bbox w="416.0" h="321.0" x="120.0" y="148.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa0">
+            <label text="LacI protein"/>
+            <bbox w="80.0" h="40.0" x="355.0" y="374.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa1">
+            <label text="TetR protein"/>
+            <bbox w="80.0" h="40.0" x="343.0" y="190.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa2">
+            <label text="cI protein"/>
+            <bbox w="80.0" h="40.0" x="162.0" y="306.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa3">
+            <label text="LacI mRNA"/>
+            <bbox w="80.0" h="40.0" x="242.0" y="387.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa4">
+            <label text="TetR mRNA"/>
+            <bbox w="80.0" h="40.0" x="414.0" y="283.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="sa5">
+            <label text="cI mRNA"/>
+            <bbox w="80.0" h="40.0" x="222.0" y="203.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa6">
+            <label text="s1"/>
+            <bbox w="30.0" h="30.0" x="250.0" y="561.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa7">
+            <label text="s2"/>
+            <bbox w="30.0" h="30.0" x="599.0" y="287.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa8">
+            <label text="s3"/>
+            <bbox w="30.0" h="30.0" x="186.0" y="37.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa9">
+            <label text="s4"/>
+            <bbox w="30.0" h="30.0" x="353.0" y="532.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa10">
+            <label text="s5"/>
+            <bbox w="30.0" h="30.0" x="549.0" y="195.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa11">
+            <label text="s6"/>
+            <bbox w="30.0" h="30.0" x="79.0" y="225.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa12">
+            <label text="s7"/>
+            <bbox w="30.0" h="30.0" x="474.0" y="556.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa13">
+            <label text="s8"/>
+            <bbox w="30.0" h="30.0" x="435.0" y="35.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa14">
+            <label text="s9"/>
+            <bbox w="30.0" h="30.0" x="35.0" y="342.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa15">
+            <label text="s10"/>
+            <bbox w="30.0" h="30.0" x="184.0" y="505.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa16">
+            <label text="s11"/>
+            <bbox w="30.0" h="30.0" x="547.0" y="370.0"/>
+        </glyph>
+        <glyph class="source and sink" id="sa17">
+            <label text="s12"/>
+            <bbox w="30.0" h="30.0" x="314.0" y="52.0"/>
+        </glyph>
+        <arc class="consumption" id="Reaction1-react0" source="sa3" target="pnReaction1.R">
+            <start x="282.0" y="427.0"/>
+            <next x="275.0" y="544.0"/>
+            <end x="280.0" y="544.0"/>
+        </arc>
+        <arc class="production" id="Reaction1-product0" source="pnReaction1.L" target="sa6">
+            <start x="270.0" y="544.0"/>
+            <next x="275.0" y="544.0"/>
+            <end x="268.82684" y="566.7612"/>
+        </arc>
+        <arc class="consumption" id="Reaction2-react0" source="sa4" target="pnReaction2.R">
+            <start x="494.0" y="303.0"/>
+            <next x="572.0" y="303.0"/>
+            <end x="577.0" y="303.0"/>
+        </arc>
+        <arc class="production" id="Reaction2-product0" source="pnReaction2.L" target="sa7">
+            <start x="567.0" y="303.0"/>
+            <next x="572.0" y="303.0"/>
+            <end x="604.0" y="302.0"/>
+        </arc>
+        <arc class="consumption" id="Reaction3-react0" source="sa5" target="pnReaction3.R">
+            <start x="242.0" y="203.0"/>
+            <next x="225.0" y="86.0"/>
+            <end x="230.0" y="86.0"/>
+        </arc>
+        <arc class="production" id="Reaction3-product0" source="pnReaction3.L" target="sa8">
+            <start x="220.0" y="86.0"/>
+            <next x="225.0" y="86.0"/>
+            <end x="208.07108" y="59.071068"/>
+        </arc>
+        <arc class="consumption" id="Reaction4-react0" source="sa9" target="pnReaction4.R">
+            <start x="368.0" y="537.0"/>
+            <next x="361.0" y="506.0"/>
+            <end x="366.0" y="506.0"/>
+        </arc>
+        <arc class="production" id="Reaction4-product0" source="pnReaction4.L" target="sa0">
+            <start x="356.0" y="506.0"/>
+            <next x="361.0" y="506.0"/>
+            <end x="375.0" y="414.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction4-mod0" source="sa3" target="pnReaction4">
+            <start x="321.0" y="426.0"/>
+            <end x="361.0" y="500.99"/>
+        </arc>
+        <arc class="consumption" id="Reaction5-react0" source="sa10" target="pnReaction5.R">
+            <start x="556.92896" y="202.92892"/>
+            <next x="468.0" y="128.0"/>
+            <end x="473.0" y="128.0"/>
+        </arc>
+        <arc class="production" id="Reaction5-product0" source="pnReaction5.L" target="sa1">
+            <start x="463.0" y="128.0"/>
+            <next x="468.0" y="128.0"/>
+            <end x="422.0" y="191.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction5-mod0" source="sa4" target="pnReaction5">
+            <start x="454.0" y="283.0"/>
+            <end x="468.0" y="122.99"/>
+        </arc>
+        <arc class="consumption" id="Reaction6-react0" source="sa11" target="pnReaction6.L">
+            <start x="101.07107" y="232.92892"/>
+            <next x="210.0" y="141.0"/>
+            <end x="205.0" y="141.0"/>
+        </arc>
+        <arc class="production" id="Reaction6-product0" source="pnReaction6.R" target="sa2">
+            <start x="215.0" y="141.0"/>
+            <next x="210.0" y="141.0"/>
+            <end x="202.0" y="306.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction6-mod0" source="sa5" target="pnReaction6">
+            <start x="242.0" y="203.0"/>
+            <end x="210.0" y="135.99"/>
+        </arc>
+        <arc class="consumption" id="Reaction7-react0" source="sa0" target="pnReaction7.R">
+            <start x="415.0" y="414.0"/>
+            <next x="456.0" y="536.0"/>
+            <end x="461.0" y="536.0"/>
+        </arc>
+        <arc class="production" id="Reaction7-product0" source="pnReaction7.L" target="sa12">
+            <start x="451.0" y="536.0"/>
+            <next x="456.0" y="536.0"/>
+            <end x="481.92892" y="563.92896"/>
+        </arc>
+        <arc class="consumption" id="Reaction8-react0" source="sa1" target="pnReaction8.R">
+            <start x="403.0" y="190.0"/>
+            <next x="430.0" y="85.0"/>
+            <end x="435.0" y="85.0"/>
+        </arc>
+        <arc class="production" id="Reaction8-product0" source="pnReaction8.L" target="sa13">
+            <start x="425.0" y="85.0"/>
+            <next x="430.0" y="85.0"/>
+            <end x="446.17316" y="59.238796"/>
+        </arc>
+        <arc class="consumption" id="Reaction9-react0" source="sa2" target="pnReaction9.R">
+            <start x="162.0" y="326.0"/>
+            <next x="99.0" y="343.0"/>
+            <end x="104.0" y="343.0"/>
+        </arc>
+        <arc class="production" id="Reaction9-product0" source="pnReaction9.L" target="sa14">
+            <start x="94.0" y="343.0"/>
+            <next x="99.0" y="343.0"/>
+            <end x="59.238796" y="353.17316"/>
+        </arc>
+        <arc class="consumption" id="Reaction10-react0" source="sa15" target="pnReaction10.R">
+            <start x="206.07108" y="512.92896"/>
+            <next x="233.0" y="493.0"/>
+            <end x="238.0" y="493.0"/>
+        </arc>
+        <arc class="production" id="Reaction10-product0" source="pnReaction10.L" target="sa3">
+            <start x="228.0" y="493.0"/>
+            <next x="233.0" y="493.0"/>
+            <end x="262.0" y="427.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction10-mod0" source="sa2" target="pnReaction10">
+            <start x="202.0" y="346.0"/>
+            <end x="233.0" y="487.99"/>
+        </arc>
+        <arc class="consumption" id="Reaction11-react0" source="sa16" target="pnReaction11.R">
+            <start x="554.92896" y="392.07108"/>
+            <next x="462.0" y="476.0"/>
+            <end x="467.0" y="476.0"/>
+        </arc>
+        <arc class="production" id="Reaction11-product0" source="pnReaction11.L" target="sa4">
+            <start x="457.0" y="476.0"/>
+            <next x="462.0" y="476.0"/>
+            <end x="454.0" y="323.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction11-mod0" source="sa0" target="pnReaction11">
+            <start x="434.0" y="413.0"/>
+            <end x="462.0" y="470.99"/>
+        </arc>
+        <arc class="consumption" id="Reaction12-react0" source="sa17" target="pnReaction12.R">
+            <start x="329.0" y="77.0"/>
+            <next x="336.0" y="106.0"/>
+            <end x="341.0" y="106.0"/>
+        </arc>
+        <arc class="production" id="Reaction12-product0" source="pnReaction12.L" target="sa5">
+            <start x="331.0" y="106.0"/>
+            <next x="336.0" y="106.0"/>
+            <end x="282.0" y="203.0"/>
+        </arc>
+        <arc class="catalysis" id="Reaction12-mod0" source="sa1" target="pnReaction12">
+            <start x="363.0" y="190.0"/>
+            <end x="336.0" y="100.99"/>
+        </arc>
+    </map>
+</sbgn>

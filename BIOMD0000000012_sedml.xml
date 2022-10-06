@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by phraSED-ML version v1.1.1 with libSBML version 5.18.1. -->
+<sedML xmlns="http://sed-ml.org/sed-ml/level1/version3" level="1" version="3">
+  <listOfModels>
+    <model id="BIOMD0000000012" language="urn:sedml:language:sbml.level-2.version-3" source="BIOMD0000000012.xml"/>
+  </listOfModels>
+  <listOfSimulations>
+    <uniformTimeCourse id="det_sim" initialTime="0" outputStartTime="0" outputEndTime="500" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019"/>
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfTasks>
+    <task id="run_det_sim" modelReference="BIOMD0000000012" simulationReference="det_sim"/>
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="plot_0_0_0" name="run_det_sim.time">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> run_det_sim_____time </ci>
+      </math>
+      <listOfVariables>
+        <variable id="run_det_sim_____time" symbol="urn:sedml:symbol:time" taskReference="run_det_sim" modelReference="BIOMD0000000012"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_0_0_1" name="run_det_sim.PX">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> run_det_sim_____PX </ci>
+      </math>
+      <listOfVariables>
+        <variable id="run_det_sim_____PX" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='PX']" taskReference="run_det_sim" modelReference="BIOMD0000000012"/>
+      </listOfVariables>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot_0" name="Repressilator dynamics">
+      <listOfCurves>
+        <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_0_1"/>
+      </listOfCurves>
+    </plot2D>
+  </listOfOutputs>
+</sedML>
