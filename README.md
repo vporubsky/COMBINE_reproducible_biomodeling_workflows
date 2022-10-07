@@ -29,8 +29,8 @@
   <h3 align="center">COMBINE_reproducible_biomodeling_workflows</h3>
 
   <p align="center">
-    All materials associated with the chapter for Methods in Molecular Biology entitled, 
-    "A practical guide to reproducible modeling for signaling networks" are contained in this 
+    All materials associated with the tutorial for the International Conference on Systems Biology (ICSB) and COMBINE 2022 events entitled, 
+    "Creating reproducible biochemical modeling workflows", are contained in this 
     repository.
 
 <br />
