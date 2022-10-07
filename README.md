@@ -76,7 +76,7 @@
 
 While scientific disciplines revere reproducibility, many studies - experimental and computational alike - fall short of this ideal and cannot be reproduced or even repeated when the model is shared. For computational modeling of biochemical networks, there is a dearth of formal training and resources available describing how to practically implement reproducible methods, despite a wealth of existing tools and formats which could be used to support reproducibility. This chapter points the reader to useful software tools and standardized formats that support reproducible modeling of biochemical networks and provides suggestions on how to implement reproducible methods in practice. Many of the suggestions encourage readers to use best practices from the software development community in order to automate, test, and version control their model components. A Jupyter Notebook demonstrating several of the key steps in building a reproducible biochemical network model is included to supplement the recommendations in the text.
 
-You can also try out the study on Google Colab: [https://colab.research.google.com/drive/1HgorZNOUyE_3wVNJdsR3ZQrG5qdk0tVi?usp=sharing](https://colab.research.google.com/drive/1Gw8KbSrSqaGD3feaif6lIfrC_HPICkZR)
+You can also try out the study on Google Colab: https://colab.research.google.com/drive/1wddLftHNhetbozZY29r2HRkzQLl1F_fs?usp=sharing
 
 <!-- GETTING STARTED -->
 ## Getting Started
